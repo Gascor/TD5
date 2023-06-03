@@ -69,6 +69,14 @@ public class Date {
      * @return Date
      */
     public Date dateDuLendemain(){
-        return null;
+        if (chJour == Date.dernierJourDuMois(chMois, chAnnee)) {
+            if (chMois == 12) {
+                return new Date(1,1,chAnnee+1);
+            } else {
+                return new Date(1,chMois+1,chAnnee);
+            }
+        } else {
+            return new Date(chJour+1,chMois,chAnnee);
+        }
     }
 }
