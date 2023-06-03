@@ -85,6 +85,14 @@ public class Date {
      * @return Date
      */
     public Date dateDeLaVeille(){
-        return null;
+        if (chJour == 1) {
+            if (chMois == 1) {
+                return new Date(Date.dernierJourDuMois(12,chAnnee-1),12,chAnnee-1);
+            } else {
+                return new Date(Date.dernierJourDuMois(chMois-1,chAnnee),chMois-1,chAnnee);
+            }
+        } else {
+            return new Date(chJour-1, chMois, chAnnee);
+        }
     }
 }
