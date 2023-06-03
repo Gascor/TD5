@@ -1,4 +1,7 @@
-
+---
+title:  Dossier de tests
+author: Lucas DA SILVA FERREIRA
+---
 
 # DOSSIER DE TEST / COMPTE RENDU (TD 5)
 
@@ -23,6 +26,7 @@
 ## Sommaire<!-- omit in toc -->
 - [Dossier de tests](#dossier-de-tests)
     - [1. Introduction](#1-introduction)
+    - [1bis. Partie Compte Rendu](#bis-introduction)
     - [2. Description de la procédure de test](#2-description-de-la-procédure-de-test)
     - [3. Description des informations à enregistrer pour le test](#3-description-des-informations-à-enregistrer-pour-le-test)
         - [3.1. Campagne de test](#3.1-campagne-de-test)
