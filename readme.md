@@ -24,8 +24,8 @@ author: Lucas DA SILVA FERREIRA
 ** /!\ Ce fichier servira de compte rendu /!\ **
 
 ## **Sommaire**<!-- omit in toc -->
-- [Dossier de tests](0)
-    - [1. Introduction](1)
+- [Dossier de tests](#0)
+    - [1. Introduction](#1)
     - [1bis. Partie Compte Rendu](#bis-introduction)
     - [2. Description de la procédure de test](#2-description-de-la-procédure-de-test)
     - [3. Description des informations à enregistrer pour le test](#3-description-des-informations-à-enregistrer-pour-le-test)
