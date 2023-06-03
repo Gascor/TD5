@@ -63,4 +63,12 @@ public class Date {
             }
         }
     }
+    /**
+     * Returns a date corresponding to day after the object's.
+     *
+     * @return Date
+     */
+    public Date dateDuLendemain(){
+        return null;
+    }
 }
