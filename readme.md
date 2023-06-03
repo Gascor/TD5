@@ -284,6 +284,51 @@ author: Lucas DA SILVA FERREIRA
 |   P2   | 2020  |  1   |           25           | 24/1/2020  |
 |   P3   | 2020  |  2   |           25           | 24/2/2020  |
 
+<hr>
+
+#### Methode "compareTo()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test : compareTo()</td>
+            <td style='border: 1px solid black;text-align: left'>Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Description du test :</td>
+            <td style='border: 1px solid black;text-align: left'>Test sur la méthode "compareTo()" en utilisant la méthode des boites noires.</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Ressources requises : </td>
+            <td style='border: 1px solid black;text-align: left'>IntelliJ IDEA 2022.3.2, la machine cité plus haut </td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable de la campagne de test : </td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+    </tbody>
+</table>
+
+| Classe |       annne       |      mois       |      jour       | Resultat  attendu |
+|:------:|:-----------------:|:---------------:|:---------------:|:-----------------:|
+|   P0   | d1.annee>d2.annee |   peu importe   |   peu importe   |        >0         |
+|   P1   | d1.annee<d2.annee |   peu importe   |   peu importe   |        <0         |
+|   P2   | d1.annee=d2.annee | d1.mois>d2.mois |   peu importe   |        >0         |
+|   P3   | d1.annee=d2.annee | d1.mois<d2.mois |   peu importe   |        <0         |
+|   P4   | d1.annee=d2.annee | d1.mois=d2.mois | d1.jour>d2.jour |        >0         |
+|   P5   | d1.annee=d2.annee | d1.mois=d2.mois | d1.jour<d2.jour |        <0         |
+|   P5   | d1.annee=d2.annee | d1.mois=d2.mois | d1.jour=d2.jour |        =0         |
+
+| Classe |       annne        |   mois    |    jour     | Resultat |
+|:------:|:------------------:|:---------:|:-----------:|:--------:|
+|   P0   | d1 =2020 d2 = 2019 | d1=6 d2=8 | d1=12 d2=16 |   9796   |
+|   P1   | d1 =2019 d2 = 2020 | d1=8 d2=6 | d1=16 d2=12 |  -9796   |
+|   P2   | d1 =2020  d2 =2020 | d1=8 d2=6 | d1=12 d2=16 |   196    |
+|   P3   | d1 =2020  d2 =2020 | d1=6 d2=8 | d1=16 d2=12 |   -196   |
+|   P4   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=16 d2=12 |    4     |
+|   P5   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=16 |    -4    |
+|   P6   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=12 |    0     |
+
 ### 3.3. Résultats
 
 #### Methode "estBissextile()" :
@@ -425,6 +470,35 @@ author: Lucas DA SILVA FERREIRA
         <tr>
             <td style='border: 1px solid black;text-align: left'>Occurences des résultats :</td>
             <td style='border: 1px solid black;text-align: left'>Systématique</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+#### Methode "compareTo()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test :</td>
+            <td style='border: 1px solid black;text-align: left'>compareTo()</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable :</td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Date d'application du test :</td>
+            <td style='border: 1px solid black;text-align: left'>18/05/2023</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Résultat :</td>
+            <td style='border: 1px solid black;text-align: left'>non fait</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Occurences des résultats :</td>
+            <td style='border: 1px solid black;text-align: left'>non fait</td>
         </tr>
     </tbody>
 </table>
