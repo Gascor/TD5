@@ -102,6 +102,8 @@ public class Date {
      * @return        0 if they are equal, a negative int if the date is greater, a positive int if the date is lower.
      */
     public int compareTo(Date parDate) {
-        return 0;
+        int entier1 = chAnnee*10000+chMois*100+chJour;
+        int entier2 = parDate.chAnnee*10000+parDate.chMois*100+parDate.chJour;
+        return entier1 - entier2;
     }
 }
