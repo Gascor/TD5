@@ -1,8 +1,7 @@
-module com.example.td5 {
+module modele {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.td5 to javafx.fxml;
-    exports com.example.td5;
+    opens modele to javafx.fxml;
 }
