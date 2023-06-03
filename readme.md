@@ -3,7 +3,7 @@ title:  Dossier de tests
 author: Lucas DA SILVA FERREIRA
 ---
 
-# DOSSIER DE TEST / COMPTE RENDU (TD 5)
+# **DOSSIER DE TEST / COMPTE RENDU (TD 5)**
 
 <table>
     <tbody>
@@ -23,7 +23,7 @@ author: Lucas DA SILVA FERREIRA
 
 ** /!\ Ce fichier servira de compte rendu /!\ **
 
-## Sommaire<!-- omit in toc -->
+## **Sommaire**<!-- omit in toc -->
 - [Dossier de tests](#dossier-de-tests)
     - [1. Introduction](#1-introduction)
     - [1bis. Partie Compte Rendu](#bis-introduction)
@@ -34,9 +34,9 @@ author: Lucas DA SILVA FERREIRA
         - [3.3. Résultats](#3.3-résultats)
         - [3.4. Conclusions](#3.4-conclusions)
 
-## 1. Introduction
+## **1. Introduction**
 
-## 1bis. Partie Compte Rendu
+## **1bis. Partie Compte Rendu**
 
 * Etape 1: On ajoute la classe date
 * Etape 2: on crée la partition d'échange avec la methode dernierjour du mois et est bissextile
@@ -52,11 +52,11 @@ author: Lucas DA SILVA FERREIRA
 
 - Oui, Plusieurs tests peuvent avoir le même ordre car certaines méthodes n'en appellent aucune et d'autres fonctions appellent les mêmes fonctions. Donc certains codes seront éxécutés en meme temps.
 
-## 2. Description de la procédure de test
+## **2. Description de la procédure de test**
 
-## 3. Description des informations à enregistrer pour le test
+## **3. Description des informations à enregistrer pour le test**
 
-### 3.1. Campagne de test
+### **3.1. Campagne de test**
 
 <table>
     <tbody>
@@ -87,7 +87,7 @@ author: Lucas DA SILVA FERREIRA
     </tbody>
 </table>
 
-### 3.2. Tests
+### **3.2. Tests**
 
 #### Methode "estBissextile()" :
 
@@ -329,7 +329,7 @@ author: Lucas DA SILVA FERREIRA
 |   P5   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=16 |    -4    |
 |   P6   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=12 |    0     |
 
-### 3.3. Résultats
+### **3.3. Résultats**
 
 #### Methode "estBissextile()" :
 
@@ -503,4 +503,4 @@ author: Lucas DA SILVA FERREIRA
     </tbody>
 </table>
 
-### 3.4. Conclusion
+### **3.4. Conclusion**
