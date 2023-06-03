@@ -79,4 +79,12 @@ public class Date {
             return new Date(chJour+1,chMois,chAnnee);
         }
     }
+    /**
+     * Returns a date corresponding to day before the object's.
+     *
+     * @return Date
+     */
+    public Date dateDeLaVeille(){
+        return null;
+    }
 }
