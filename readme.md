@@ -134,7 +134,7 @@ author: Lucas DA SILVA FERREIRA
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Responsable :</td>
-            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA & Baptiste FOURNIE</td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Date d'application du test :</td>
