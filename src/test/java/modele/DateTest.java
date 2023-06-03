@@ -85,6 +85,23 @@ class DateTest {
         assertEquals(24,d4.dateDeLaVeille().chJour);
         assertEquals(2,d4.dateDeLaVeille().chMois);
         assertEquals(2020,d4.dateDeLaVeille().chAnnee);
+    }
+    @Test @Order(1)
+    void compareTo(){
+        System.out.println("Test méthode compareTo");
+        Date d1 = new Date(12,6,2020);
+        Date d2 = new Date(16,8,2019);
+        Date d3 = new Date(12,8,2020);
+        Date d4 = new Date(16,6,2020);
+        Date d5 = new Date(16,6,2020);
+        Date d6 = new Date(12,6,2020);
 
+        assertEquals(9796,d1.compareTo(d2));
+        assertEquals(-9796,d2.compareTo(d1));
+        assertEquals(196,d3.compareTo(d4));
+        assertEquals(-196,d4.compareTo(d3));
+        assertEquals(4,d5.compareTo(d1));
+        assertEquals(-4,d1.compareTo(d5));
+        assertEquals(0,d1.compareTo(d6));
     }
 }
