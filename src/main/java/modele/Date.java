@@ -95,4 +95,13 @@ public class Date {
             return new Date(chJour-1, chMois, chAnnee);
         }
     }
+    /**
+     * Compares two dates.
+     *
+     * @param parDate The date to compare the object with.
+     * @return        0 if they are equal, a negative int if the date is greater, a positive int if the date is lower.
+     */
+    public int compareTo(Date parDate) {
+        return 0;
+    }
 }
