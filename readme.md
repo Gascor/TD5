@@ -3,6 +3,22 @@
 ### Etape 1: On ajoute la classe date
 ### Etape 2: on crée la partition d'échange avec la methode dernierjour du mois et est bissextile
 
+## **partitions d'équivalence est bissextile**
+
+| Classe |    a divisible par    | Résultat attendu |      
+|:------:|:---------------------:|:----------------:|
+|   P0   | 4:non 100:non 400:non |       Faux       |
+|   P1   | 4:oui 100:non 400:non |       Vrai       |
+|   P2   | 4:oui 100:oui 400:non |       Faux       |
+|   P3   | 4:oui 100:oui 400:oui |       Vrai       |
+
+| Classe |    a                  | Résultat          |
+|:------:|:---------------------:|:----------------:|
+|   P0   | 2017                  |       Faux       |
+|   P1   | 2016                  |       Vrai       |
+|   P2   | 2100                  |       Faux       |
+|   P3   | 2400                  |       Vrai       |
+
 ### Etape 3: Ajout de "print" à chaque méthode de test
 
 On remarque qu'en rajoutant un print à chaque méthode quand nous éxécutons les tests. le terminal affiche "Test méthode {nom de méthode} au lieu de ne rien afficher. On pourra donc montrer plus correctement quel test à été éxécuté.
