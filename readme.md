@@ -26,17 +26,17 @@ author: Lucas DA SILVA FERREIRA
 ## **Sommaire**<!-- omit in toc -->
 - [Dossier de tests](#0)
     - [1. Introduction](#1)
-    - [1bis. Partie Compte Rendu](#bis-introduction)
-    - [2. Description de la procédure de test](#2-description-de-la-procédure-de-test)
-    - [3. Description des informations à enregistrer pour le test](#3-description-des-informations-à-enregistrer-pour-le-test)
-        - [3.1. Campagne de test](#3.1-campagne-de-test)
-        - [3.2. Tests](#3.2-tests)
-        - [3.3. Résultats](#3.3-résultats)
-        - [3.4. Conclusions](#3.4-conclusions)
+    - [1bis. Partie Compte Rendu](#2)
+    - [2. Description de la procédure de test](#3)
+    - [3. Description des informations à enregistrer pour le test](#4)
+        - [3.1. Campagne de test](#5)
+        - [3.2. Tests](#6)
+        - [3.3. Résultats](#7)
+        - [3.4. Conclusions](#8)
 
 ## <a name="1">**1. Introduction**
 
-## **1bis. Partie Compte Rendu**
+## <a name="2">**1bis. Partie Compte Rendu**
 
 * Etape 1: On ajoute la classe date
 * Etape 2: on crée la partition d'échange avec la methode dernierjour du mois et est bissextile
@@ -52,11 +52,11 @@ author: Lucas DA SILVA FERREIRA
 
 - Oui, Plusieurs tests peuvent avoir le même ordre car certaines méthodes n'en appellent aucune et d'autres fonctions appellent les mêmes fonctions. Donc certains codes seront éxécutés en meme temps.
 
-## **2. Description de la procédure de test**
+## <a name="3">**2. Description de la procédure de test**
 
-## **3. Description des informations à enregistrer pour le test**
+## <a name="4">**3. Description des informations à enregistrer pour le test**
 
-### **3.1. Campagne de test**
+### <a name="5">**3.1. Campagne de test**
 
 <table>
     <tbody>
@@ -87,7 +87,7 @@ author: Lucas DA SILVA FERREIRA
     </tbody>
 </table>
 
-### **3.2. Tests**
+### <a name="6">**3.2. Tests**
 
 #### Methode "estBissextile()" :
 
@@ -329,7 +329,7 @@ author: Lucas DA SILVA FERREIRA
 |   P5   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=16 |    -4    |
 |   P6   | d1 =2020  d2 =2020 | d1=6 d2=6 | d1=12 d2=12 |    0     |
 
-### **3.3. Résultats**
+### <a name="7">**3.3. Résultats**
 
 #### Methode "estBissextile()" :
 
@@ -503,4 +503,6 @@ author: Lucas DA SILVA FERREIRA
     </tbody>
 </table>
 
-### **3.4. Conclusion**
+### <a name="8">**3.4. Conclusion**
+
+Ce projet à été fait en suivant la méthode du cycle en V récursif. quelques erreurs ont été fait mais réparé!
