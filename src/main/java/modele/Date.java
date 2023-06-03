@@ -9,9 +9,9 @@ public class Date {
      *
      * @param parAnnee The year of the date.
      */
-    public Date(int parJour,int parMois,int parAnnee) {
-        chJour = parJour;
-        chMois = parMois;
+    public Date(int parAnnee) {
+        chJour = 1;
+        chMois = 1;
         chAnnee = parAnnee;
     }
     /**
