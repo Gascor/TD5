@@ -14,4 +14,13 @@ public class Date {
         chMois = 1;
         chAnnee = parAnnee;
     }
+    /**
+     * Returns True if the given year is a Leap year, else False.
+     *
+     * @param parAnnee The year to check
+     * @return boolean
+     */
+    public static boolean estBissextile(int parAnnee){
+        return false;
+    }
 }
