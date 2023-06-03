@@ -23,4 +23,14 @@ public class Date {
     public static boolean estBissextile(int parAnnee){
         return parAnnee % 400 == 0 || (parAnnee % 4 == 0 && parAnnee % 100 != 0);
     }
+    /**
+     * Returns the last day in a given month of a given year.
+     *
+     * @param parMois  The month to check
+     * @param parAnnee The year to check
+     * @return int
+     */
+    public static int dernierJourDuMois(int parMois, int parAnnee){
+        return 0;
+    }
 }
