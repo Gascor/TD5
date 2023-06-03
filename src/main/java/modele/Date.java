@@ -15,6 +15,19 @@ public class Date {
         chAnnee = parAnnee;
     }
     /**
+     * Date class constructor for three argument.
+     * Creates a date corresponding to the given parameters.
+     *
+     * @param parJour  The day of the date
+     * @param parMois  The month of the date
+     * @param parAnnee The year of the date
+     */
+    public Date(int parJour, int parMois, int parAnnee){
+        chJour = parJour;
+        chMois = parMois;
+        chAnnee = parAnnee;
+    }
+    /**
      * Returns True if the given year is a Leap year, else False.
      *
      * @param parAnnee The year to check
