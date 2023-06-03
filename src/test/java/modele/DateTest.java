@@ -26,4 +26,16 @@ class DateTest {
         assertEquals(29,Date.dernierJourDuMois(2,2016));
         assertEquals(-1,Date.dernierJourDuMois(13,2100));
     }
+    @Test @Order (1)
+    void Date(){
+        System.out.println("Test méthode Date");
+        Date d1 = new Date(5,2,2017);
+        Date d2 = new Date(2017);
+        assertEquals(2017,d1.chAnnee);
+        assertEquals(2,d1.chMois);
+        assertEquals(5,d1.chJour);
+        assertEquals(2017,d2.chAnnee);
+        assertEquals(1,d2.chMois);
+        assertEquals(1,d2.chJour);
+    }
 }
