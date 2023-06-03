@@ -206,6 +206,45 @@ author: Lucas DA SILVA FERREIRA
 |   P0   | 2017  |      2      |      5      | channee = 2017,chmois = 2, chjour = 5 |
 |   P1   | 2017  | non present | non present | channée = 2017, chmois = 1, chjour= 1 |
 
+<hr>
+
+#### Methode(s) "dateDuLendemain()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test : dateDuLendemain()</td>
+            <td style='border: 1px solid black;text-align: left'>Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Description du test :</td>
+            <td style='border: 1px solid black;text-align: left'>Test sur la méthode "dateDuLendemain()" en utilisant la méthode des boites noires.</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Ressources requises : </td>
+            <td style='border: 1px solid black;text-align: left'>IntelliJ IDEA 2022.3.2, la machine cité plus haut </td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable de la campagne de test : </td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+    </tbody>
+</table>
+
+| Classe |     annne      |     mois     | jour=dernierjourdumois |        Resultat  attendu         |
+|:------:|:--------------:|:------------:|:----------------------:|:--------------------------------:|
+|   P0   | appartient à N | différent 12 |          oui           |       chmois =+1, chjour=1       |
+|   P1   | appartient à N | différet 12  |          non           |   chmois = chmois, chjour= +1    |
+|   P2   | appartient à N |     =12      |          non           |     chmois = 12 ,chjour =+1      |
+|   P3   | appartient à N |     =12      |          oui           | channée =+1,chmois = 1,chjour +1 |
+
+| Classe | annne | mois | jour=dernierjourdumois |  Resultat  |
+|:------:|:-----:|:----:|:----------------------:|:----------:|
+|   P0   | 2020  |  1   |           31           |  1/2/2020  |
+|   P1   | 2020  |  1   |           20           | 21/1/2020  |
+|   P2   | 2020  |  12  |           25           | 26/12/2020 |
+|   P3   | 2020  |  12  |           31           |  1/1/2021  |
+
 ### 3.3. Résultats
 
 #### Methode "estBissextile()" :
@@ -289,6 +328,35 @@ author: Lucas DA SILVA FERREIRA
         <tr>
             <td style='border: 1px solid black;text-align: left'>Occurences des résultats :</td>
             <td style='border: 1px solid black;text-align: left'>Systématique</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+#### Methode "dateDuLendemain()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test :</td>
+            <td style='border: 1px solid black;text-align: left'>dateDuLendemain()</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable :</td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Date d'application du test :</td>
+            <td style='border: 1px solid black;text-align: left'>18/05/2023</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Résultat :</td>
+            <td style='border: 1px solid black;text-align: left'>non fait</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Occurences des résultats :</td>
+            <td style='border: 1px solid black;text-align: left'>non fait</td>
         </tr>
     </tbody>
 </table>
