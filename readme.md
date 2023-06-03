@@ -138,7 +138,7 @@ author: Lucas DA SILVA FERREIRA
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Description du test :</td>
-            <td style='border: 1px solid black;text-align: left'>Test sur la méthode "estBissextile()" en utilisant la méthode des boites noires.</td>
+            <td style='border: 1px solid black;text-align: left'>Test sur la méthode "dernierJourDuMois()" en utilisant la méthode des boites noires.</td>
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Ressources requises : </td>
@@ -170,6 +170,41 @@ author: Lucas DA SILVA FERREIRA
 |   P4   | 2016 |  4  |    30    |
 |   P5   | 2016 |  2  |    29    |
 |   P6   | 2100 | 13  |    -1    |
+
+<hr>
+
+#### Methode(s) "Date()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test : Date()</td>
+            <td style='border: 1px solid black;text-align: left'>Version : 1.0</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Description du test :</td>
+            <td style='border: 1px solid black;text-align: left'>Test sur la méthode "Date()" en utilisant la méthode des boites noires.</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Ressources requises : </td>
+            <td style='border: 1px solid black;text-align: left'>IntelliJ IDEA 2022.3.2, la machine cité plus haut </td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable de la campagne de test : </td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+    </tbody>
+</table>
+
+| Classe |  annne  |    mois     |    jour     |           Resultat attendu            |
+|:------:|:-------:|:-----------:|:-----------:|:-------------------------------------:|
+|   P0   | present |   present   |   present   |  la date avec les parametres données  |
+|   P1   | present | non present | non present | le premier janvier avec l'année donné |
+
+| Classe | annne |    mois     |    jour     |               Resultat                |
+|:------:|:-----:|:-----------:|:-----------:|:-------------------------------------:|
+|   P0   | 2017  |      2      |      5      | channee = 2017,chmois = 2, chjour = 5 |
+|   P1   | 2017  | non present | non present | channée = 2017, chmois = 1, chjour= 1 |
 
 ### 3.3. Résultats
 
@@ -209,6 +244,35 @@ author: Lucas DA SILVA FERREIRA
         <tr>
             <td style='border: 1px solid black;text-align: left'>Identification du test :</td>
             <td style='border: 1px solid black;text-align: left'>dernierJourDuMois()</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Responsable :</td>
+            <td style='border: 1px solid black;text-align: left'>Lucas DA SILVA FERREIRA</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Date d'application du test :</td>
+            <td style='border: 1px solid black;text-align: left'>18/05/2023</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Résultat :</td>
+            <td style='border: 1px solid black;text-align: left'>OK</td>
+        </tr>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Occurences des résultats :</td>
+            <td style='border: 1px solid black;text-align: left'>Systématique</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+#### Methode(s) "Date()" :
+
+<table>
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black;text-align: left'>Identification du test :</td>
+            <td style='border: 1px solid black;text-align: left'>Date()</td>
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Responsable :</td>
