@@ -62,7 +62,7 @@ author: Lucas DA SILVA FERREIRA
     <tbody>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Produit testé : </td>
-            <td style='border: 1px solid black;text-align: left'>RPG SIMULATOR</td>
+            <td style='border: 1px solid black;text-align: left'>Test_Classe_Date</td>
         </tr>
         <tr>
             <td style='border: 1px solid black;text-align: left'>Configuration logicielle : </td>
