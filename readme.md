@@ -151,6 +151,26 @@ author: Lucas DA SILVA FERREIRA
     </tbody>
 </table>
 
+| Classe |        A         |       M       | Résultat attendu |
+|:------:|:----------------:|:-------------:|:----------------:|
+|   P0   | a non bissextile | mois 31 jours |        31        |
+|   P1   | a non bissextile | mois 31 jours |        30        |
+|   P2   | a non bissextile |    Février    |        28        |
+|   P3   |   a bissextile   | mois 31 jours |        31        |
+|   P4   |   a bissextile   | mois 31 jours |        30        |
+|   P5   |   a bissextile   |    février    |        29        |
+|   P6   |   a bissextile   | mois interdit |        -1        |
+
+| Classe |  A   |  M  | Résultat |
+|:------:|:----:|:---:|:--------:|
+|   P0   | 2017 |  1  |    31    |
+|   P1   | 2017 |  4  |    30    |
+|   P2   | 2017 |  2  |    28    |
+|   P3   | 2016 |  1  |    31    |
+|   P4   | 2016 |  4  |    30    |
+|   P5   | 2016 |  2  |    29    |
+|   P6   | 2100 | 13  |    -1    |
+
 ### 3.3. Résultats
 
 #### Methode "estBissextile()" :
